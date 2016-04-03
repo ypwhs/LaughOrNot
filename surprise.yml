@@ -1,5 +1,5 @@
 %YAML:1.0
-description: "eyebrows raised"
+description: "surprise"
 samples:
    - !!opencv-matrix
       rows: 198

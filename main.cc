@@ -76,7 +76,7 @@ int main(){
 
     int64 t1,t0 = cvGetTickCount(); int fnum=0;
     if(show)
-        cvNamedWindow("Smale Detect",1);
+        cvNamedWindow("Smile Detect",1);
 
     //load expressions
     ExpressionClassifier classifier;
@@ -142,7 +142,7 @@ int main(){
 
         if(show){
             //show image and check for user input
-            imshow("Smale Detect",im); 
+            imshow("Smile Detect",im); 
             int c = waitKey(10)&0xFF;
             if(c == 27){
                 cout<<"Esc"<<endl;
