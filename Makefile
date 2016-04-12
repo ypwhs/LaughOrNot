@@ -11,7 +11,7 @@ CFLAGS=-Wextra -Wall -pedantic-errors $(ARCH_FLAGS) -O3 -Wno-long-long
 LDFLAGS=$(ARCH_FLAGS)
 DEFINES=
 INCLUDES=-I$(OPENCV_PATH)/include -Iinclude/
-LIBRARIES=-L$(OPENCV_PATH)/lib -lv4l2 -lopencv_core -lopencv_highgui -lopencv_imgproc -lopencv_objdetect -lpthread
+LIBRARIES=-L$(OPENCV_PATH)/lib -lopencv_core -lopencv_highgui -lopencv_imgproc -lopencv_objdetect -lpthread
 
 # Files which require compiling
 SOURCE_FILES=\
