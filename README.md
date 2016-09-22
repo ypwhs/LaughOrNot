@@ -4,7 +4,7 @@ It could track face and detect emotion.
 
 Using OpenCV 2.4.9.
 
-## Run on Computer
+## Run on PC
 
 ![](neutral.png)
 
